@@ -3248,32 +3248,40 @@ font-size:1rem;
 .search-form {
 display:none;
 }
-
-
+ul.nav-menu, div.nav-menu > ul{
+padding:0;
+margin:0;
+}
 .nav-menu li a {
-padding:15px 38px;
+padding:15px 35px;
+color:#fff;
 }
 
-ul.nav-menu{
-padding:0;
+.nav-menu li:hover a {
+background-color:#4387E8;
 }
 
+
+.navbar {
+background-color:#E25FB0;
+}
 /*カテゴリー別アーカイブ表示変更*/
-.archive-title{
-padding:0;
-font-size:1rem;
+.archive-title {
+padding:10px 0;
 font-style:normal;
-border-bottom:1px solid #000;
-display:inline;
-padding:0 0 2px 0;
-}
-
-.archive-title:before{
-content:'>>';
+font-size:1rem;
 }
 
 .archive-header {
-padding-top:5px;
 background:none;
+}
+
+.archive-title:before {
+content:'★';
+}
+
+/*サイドバーfooter突き刺さる問題解決*/
+.site-main {
+min-height:1000px;
 }
 

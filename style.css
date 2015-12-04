@@ -3225,3 +3225,55 @@ footer.entry-meta {
 		color: #333;
 	}
 }
+
+/*---ここから追加スタイル----*/
+/*タイトル変更*/
+.site-title,.site-description {
+text-align:center;
+color:#fff!important;
+text-shadow: -1px -1px 4px rgba(0, 0, 0, 1);
+}
+
+.site-header .site-title:hover {
+text-decoration:none;
+}
+
+.site-description {
+font-style:normal;
+font-size:1rem;
+}
+
+
+/*main_navi サイズ・色変更*/
+.search-form {
+display:none;
+}
+
+
+.nav-menu li a {
+padding:15px 38px;
+}
+
+ul.nav-menu{
+padding:0;
+}
+
+/*カテゴリー別アーカイブ表示変更*/
+.archive-title{
+padding:0;
+font-size:1rem;
+font-style:normal;
+border-bottom:1px solid #000;
+display:inline;
+padding:0 0 2px 0;
+}
+
+.archive-title:before{
+content:'>>';
+}
+
+.archive-header {
+padding-top:5px;
+background:none;
+}
+
